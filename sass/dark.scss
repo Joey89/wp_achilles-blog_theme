@@ -1,0 +1,157 @@
+/*
+	@package achillestheme
+*/
+
+/*
+	Import
+	------------------------------------------------
+*/
+@import 'base/variables'; 		//variables
+@import 'base/mixins';			//mixins
+@import 'base/fonticons';		//fonticons
+@import 'base/placeholders';	//placeholders
+
+$bg: #3E4147;
+$link-color: #DFBA69;
+$link-hover: #DFBA69 - 30;
+$footer-color: #2A2C31;
+body{
+	background: $bg;
+	color: #fff !important;
+}
+/* All undefined Links */
+.site-sidebar{
+	a{
+		color: $link-color;
+	}
+	a:hover,
+	a:focus{
+		color: $link-hover;
+	}
+}
+.site-sidebar-left{
+	a{
+		color: $link-color;
+	}
+	a:hover,
+	a:focus{
+		color: $link-hover;
+	}
+}
+a{
+	text-decoration: none;
+	color: $link-color;
+}
+a:hover, a:focus{
+	color: $link-hover;
+	text-decoration: underline;
+}
+.menu_below_content{
+	a{
+		color: $link-color;
+		border-color: $link-color;
+		text-decoration: none;
+	}
+	a:hover,
+	a:focus{
+		color: $link-hover !important;
+		border-color: $link-hover !important;
+		text-decoration: underline;
+	}
+}
+article{
+	border-bottom: 4px solid $light-grey;
+	.entry-meta{
+		color: $link-color;
+
+		a{
+			color: $link-color;
+			&:hover,
+			&:focus{
+				color: $link-hover;
+			}
+		}
+	}
+
+	.entry-footer{
+		color: $link-color;
+		text-transform: uppercase;
+		a{
+			color: $link-color;
+			display: inline-block;
+			font-size: 12px;
+			&:hover,
+			&:focus{
+				color: $link-hover;
+			}
+		}
+	}
+}
+.achilles-format-image {
+	.entry-title a {
+	    color: $link-color;
+		&:hover,
+		&:focus{
+			color: $link-hover;
+		}
+	}
+	.entry-meta{
+		color: $link-color;
+
+		a{
+			color: $link-color;
+			&:hover,
+			&:focus{
+				color: $link-hover;
+			}
+		}
+	}
+}
+.btn-achilles{
+	color: $link-color;
+	border-color: $link-color; 
+	&:hover,
+	&:focus{
+		color: $link-hover;
+		border-color: $link-hover; 
+	}
+}
+
+.nav-links .page-numbers{
+	color: $link-color;
+	border-color:$link-color; 
+	&:hover,
+	&:focus{
+		color: $link-hover;
+		border-color: $link-hover; 
+	}
+}
+.sidebar .r_s_h2{
+	color: #fff;
+}
+.sharing-posts{
+	color:  $link-color;
+	.icon{
+		color:  $link-color;
+		&:hover, 
+		&:focus {
+		    color: $link-hover;
+		}
+	}
+}
+.footer-widget-area{
+	a{
+		color: $link-color;
+	}
+	a:hover, 
+	a:focus {
+	    color: $link-hover !important;
+	    text-decoration: underline;
+ 	}
+	.r_s_h2{
+		color: #fff;
+	}
+}
+.page-footer{
+	background: $footer-color;
+}

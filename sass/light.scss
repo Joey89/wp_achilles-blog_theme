@@ -1,0 +1,133 @@
+/*
+	@package achillestheme
+*/
+
+/*
+	Import
+	------------------------------------------------
+*/
+@import 'base/variables'; 		//variables
+@import 'base/mixins';			//mixins
+@import 'base/fonticons';		//fonticons
+@import 'base/placeholders';	//placeholders
+
+$bg: #EBF3F6;
+$link-color: #1D2F43;
+$link-hover: #435E69;
+$footer-color: #E8EDE9;
+body{
+	background: $bg;
+	color: #222 !important;
+}
+/* All undefined Links */
+a{
+	text-decoration: none;
+	color: $link-color;
+}
+a:hover, a:focus{
+	color: $link-hover;
+	text-decoration: underline;
+}
+.site-sidebar{
+	border: 1px solid $light-grey;
+}
+.site-sidebar-left{
+	border: 1px solid $light-grey;
+}
+article{
+	border-bottom: 4px solid $light-grey;
+	.entry-meta{
+		color: $link-color;
+
+		a{
+			color: $link-color;
+			&:hover,
+			&:focus{
+				color: $link-hover;
+			}
+		}
+	}
+
+	.entry-footer{
+		color: $link-color;
+		text-transform: uppercase;
+		a{
+			color: $link-color;
+			display: inline-block;
+			font-size: 12px;
+			&:hover,
+			&:focus{
+				color: $link-hover;
+			}
+		}
+	}
+}
+.achilles-format-image {
+	.entry-title a {
+	    color: $link-color;
+		&:hover,
+		&:focus{
+			color: $link-hover;
+		}
+	}
+	.entry-meta{
+		color: $link-color;
+
+		a{
+			color: $link-color;
+			&:hover,
+			&:focus{
+				color: $link-hover;
+			}
+		}
+	}
+}
+.btn-achilles{
+	color: $link-color;
+	border-color: $link-color; 
+	&:hover,
+	&:focus{
+		color: $link-hover;
+		border-color: $link-hover; 
+	}
+}
+
+.nav-links .page-numbers{
+	color: $link-color;
+	border-color:$link-color; 
+	&:hover,
+	&:focus{
+		color: $link-hover;
+		border-color: $link-hover; 
+	}
+}
+.sidebar .r_s_h2{
+	color: #222;
+}
+.sharing-posts{
+	color:  $link-color;
+	.icon{
+		color:  $link-color;
+		&:hover, 
+		&:focus {
+		    color: $link-hover;
+		}
+	}
+}
+.footer-widget-area{
+	a{
+		color: $link-color;
+		&:hover, 
+		&:focus {
+	    color: $link-hover;
+	    text-decoration: underline;
+	 }
+}
+	.r_s_h2{
+		color: #222;
+	}
+}
+.page-footer{
+	color: #222;
+	background: rgba(0,0,0,0.05);
+}

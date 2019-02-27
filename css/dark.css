@@ -1,0 +1,288 @@
+@charset "UTF-8";
+/*
+	@package achillestheme
+*/
+/*
+	Import
+	------------------------------------------------
+*/
+/*
+	@package achillestheme
+*/
+/*
+	Variables
+	------------------------------------------------
+*/
+/*
+	@package achillestheme
+*/
+/*
+	Mixins
+	------------------------------------------------
+*/
+/*
+	@package achillestheme
+*/
+/*
+	Variables
+	------------------------------------------------
+*/
+@font-face {
+  font-family: 'achilles';
+  src: url("../fonts/achilles.eot?vy2ayi");
+  src: url("../fonts/achilles.eot?vy2ayi#iefix") format("embedded-opentype"), url("../fonts/achilles.ttf?vy2ayi") format("truetype"), url("../fonts/achilles.woff?vy2ayi") format("woff"), url("../fonts/achilles.svg?vy2ayi#achilles") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'achilles' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.achilles-home:before {
+  content: ""; }
+
+.achilles-pencil:before {
+  content: ""; }
+
+.achilles-image:before {
+  content: ""; }
+
+.achilles-camera:before {
+  content: ""; }
+
+.achilles-headphones:before {
+  content: ""; }
+
+.achilles-music:before {
+  content: ""; }
+
+.achilles-play:before {
+  content: ""; }
+
+.achilles-film:before {
+  content: ""; }
+
+.achilles-connection:before {
+  content: ""; }
+
+.achilles-price-tag:before {
+  content: ""; }
+
+.achilles-pushpin:before {
+  content: ""; }
+
+.achilles-undo2:before {
+  content: ""; }
+
+.achilles-redo2:before {
+  content: ""; }
+
+.achilles-forward:before {
+  content: ""; }
+
+.achilles-reply:before {
+  content: ""; }
+
+.achilles-bubble:before {
+  content: ""; }
+
+.achilles-bubbles:before {
+  content: ""; }
+
+.achilles-bubbles2:before {
+  content: ""; }
+
+.achilles-bubble2:before {
+  content: ""; }
+
+.achilles-quotes-right:before {
+  content: ""; }
+
+.achilles-spinner3:before {
+  content: ""; }
+
+.achilles-leaf:before {
+  content: ""; }
+
+.achilles-fire:before {
+  content: ""; }
+
+.achilles-lab:before {
+  content: ""; }
+
+.achilles-power:before {
+  content: ""; }
+
+.achilles-link:before {
+  content: ""; }
+
+.achilles-bookmark:before {
+  content: ""; }
+
+.achilles-bookmarks:before {
+  content: ""; }
+
+.achilles-arrow-up2:before {
+  content: ""; }
+
+.achilles-arrow-right2:before {
+  content: ""; }
+
+.achilles-arrow-down2:before {
+  content: ""; }
+
+.achilles-arrow-left2:before {
+  content: ""; }
+
+.achilles-google-plus2:before {
+  content: ""; }
+
+.achilles-facebook2:before {
+  content: ""; }
+
+.achilles-instagram:before {
+  content: ""; }
+
+.achilles-twitter:before {
+  content: ""; }
+
+.achilles-rss2:before {
+  content: ""; }
+
+.achilles-youtube:before {
+  content: ""; }
+
+.achilles-youtube2:before {
+  content: ""; }
+
+.achilles-github:before {
+  content: ""; }
+
+.achilles-skype:before {
+  content: ""; }
+
+.achilles-reddit:before {
+  content: ""; }
+
+.achilles-pinterest:before {
+  content: ""; }
+
+.achilles-html-five:before {
+  content: ""; }
+
+/*
+	@package achillestheme
+*/
+/*
+	Placeholder
+	------------------------------------------------
+*/
+body {
+  background: #3E4147;
+  color: #fff !important; }
+
+/* All undefined Links */
+.site-sidebar a {
+  color: #DFBA69; }
+.site-sidebar a:hover,
+.site-sidebar a:focus {
+  color: #c19c4b; }
+
+.site-sidebar-left a {
+  color: #DFBA69; }
+.site-sidebar-left a:hover,
+.site-sidebar-left a:focus {
+  color: #c19c4b; }
+
+a {
+  text-decoration: none;
+  color: #DFBA69; }
+
+a:hover, a:focus {
+  color: #c19c4b;
+  text-decoration: underline; }
+
+.menu_below_content a {
+  color: #DFBA69;
+  border-color: #DFBA69;
+  text-decoration: none; }
+.menu_below_content a:hover,
+.menu_below_content a:focus {
+  color: #c19c4b !important;
+  border-color: #c19c4b !important;
+  text-decoration: underline; }
+
+article {
+  border-bottom: 4px solid #898989; }
+  article .entry-meta {
+    color: #DFBA69; }
+    article .entry-meta a {
+      color: #DFBA69; }
+      article .entry-meta a:hover, article .entry-meta a:focus {
+        color: #c19c4b; }
+  article .entry-footer {
+    color: #DFBA69;
+    text-transform: uppercase; }
+    article .entry-footer a {
+      color: #DFBA69;
+      display: inline-block;
+      font-size: 12px; }
+      article .entry-footer a:hover, article .entry-footer a:focus {
+        color: #c19c4b; }
+
+.achilles-format-image .entry-title a {
+  color: #DFBA69; }
+  .achilles-format-image .entry-title a:hover, .achilles-format-image .entry-title a:focus {
+    color: #c19c4b; }
+.achilles-format-image .entry-meta {
+  color: #DFBA69; }
+  .achilles-format-image .entry-meta a {
+    color: #DFBA69; }
+    .achilles-format-image .entry-meta a:hover, .achilles-format-image .entry-meta a:focus {
+      color: #c19c4b; }
+
+.btn-achilles {
+  color: #DFBA69;
+  border-color: #DFBA69; }
+  .btn-achilles:hover, .btn-achilles:focus {
+    color: #c19c4b;
+    border-color: #c19c4b; }
+
+.nav-links .page-numbers {
+  color: #DFBA69;
+  border-color: #DFBA69; }
+  .nav-links .page-numbers:hover, .nav-links .page-numbers:focus {
+    color: #c19c4b;
+    border-color: #c19c4b; }
+
+.sidebar .r_s_h2 {
+  color: #fff; }
+
+.sharing-posts {
+  color: #DFBA69; }
+  .sharing-posts .icon {
+    color: #DFBA69; }
+    .sharing-posts .icon:hover, .sharing-posts .icon:focus {
+      color: #c19c4b; }
+
+.footer-widget-area a {
+  color: #DFBA69; }
+.footer-widget-area a:hover,
+.footer-widget-area a:focus {
+  color: #c19c4b !important;
+  text-decoration: underline; }
+.footer-widget-area .r_s_h2 {
+  color: #fff; }
+
+.page-footer {
+  background: #2A2C31; }
+
+/*# sourceMappingURL=dark.css.map */

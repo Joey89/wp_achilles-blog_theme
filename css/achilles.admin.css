@@ -1,0 +1,21 @@
+/*
+	@package achilles
+*/
+
+.achilles-general-form{
+	width: 60%;
+	float: left;
+}
+.logo-container{
+	width: 40%;
+	float: left;
+}
+.achilles-logo{
+	width: 300px;
+	height: 142px;
+	overflow: hidden;
+	margin: 0 auto; 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+}
